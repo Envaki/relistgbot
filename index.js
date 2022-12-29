@@ -27,7 +27,7 @@ bot.command('start', async ctx => {
     })
 })
 bot.on('message', ctx => {
-    ctx.reply('я тебе не розумію, скористайся меню', {
+    ctx.reply('я тебе не розумію, скористайся меню \u{1F61F}', {
         reply_markup: {
             inline_keyboard: [
                 [
